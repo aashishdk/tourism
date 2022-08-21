@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body,
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+ 
+
+header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('tree.jpg');
+    background-position: bottom;
+    background-size: cover;
+    opacity: 0.95;
+}
+
+.logo {
+    padding: 5px 0px 5px 10px;
+    margin: 7px;
+}
+
+.logo img {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    padding-left: 30px;
+}
+
+nav {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(34 18 16);
+    border-bottom: 2px solid rgb(145, 119, 119);
+    box-shadow: 9px 27px 24px 7px rgba(189, 188, 188, 0.1);
+    position: sticky;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 0px 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.6vmin;
+    font-weight: bolder;
+    color: whitesmoke;
+    transition: 0.6s;
+}
+
+nav ul li a:hover {
+    color: #FF1E00;
+    font-size: 3vmin;
+
+}
+
+.container {
+    color: whitesmoke;
+    text-align: center;
+    margin: 215px 50px;
+}
+
+.container h1 {
+    font-size: 4vmin;
+    margin: 20px;
+}
+
+.btn {
+    background-color: #fc036f;
+    padding: 13px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 2vmin;
+    transition: 0.8s;
+}
+
+.btn:hover {
+    background: white;
+    color: black;
+    font-weight: bold;
+    transition: 1s;
+}
+
+/*Our Events*/
+
+section {
+    width: 90%;
+    margin: 150px auto;
+    color: #fc036f;
+}
+
+.title {
+    text-align: center;
+    font-size: 4vmin;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px auto;
+    width: 100%;
+
+}
+
+.row .col {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.events .row {
+    margin-top: 50px;
+}
+
+h4 {
+    margin: 15px auto;
+    font-size: 3vmin;
+    color: darkslategray;
+}
+
+p {
+    padding: 0px 25px;
+    color: rgb(115, 57, 168);
+}
+
+
+/* Our services section */
+
+.heading {
+    text-align: center;
+    font-size: 4vmin;
+}
+
+.rows {
+    display: flex;
+    margin: 50px auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rows .column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+/*Contact section*/
+
+#contact {
+    text-align: center;
+    font-size: 3vmin;
+    color: #fc036f;
+}
+
+.fname {
+    padding: 5px;
+    display: flex;
+    margin: 15px;
+}
+
+.fname p {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+input[type="text" i] {
+    border: 3px solid black;
+    height: 20px;
+    width: 250px;
+    padding: 2px 5px;
+    margin-left: 5px;
+    border-radius: 3px;
+}
+
+#ftt {
+    margin-left: 2px;
+    padding: 5px 10px 5px 5px;
+
+}
+
+.lname {
+    padding: 5px;
+    display: flex;
+    margin: 15px;
+}
+
+#ltt {
+    margin-left: 6px;
+    padding: 5px 10px 5px 5px;
+    width: 249px;
+}
+
+
+.lname p {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+
+.email {
+    padding: 5px;
+    display: flex;
+    margin: 15px;
+}
+
+.email p {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+input[type="email" i] {
+    border: 3px solid black;
+    height: 25px;
+    width: 255px;
+    padding: 2px 5px;
+    margin: 0px 0px 0px 44px;
+    border-radius: 3px;
+}
+
+
+.mssg {
+    padding: 5px;
+    display: flex;
+    margin: 15px 0px 0px 15px;
+}
+
+.mssg p {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+textarea {
+    margin-left: 23px;
+    padding: 5px 10px 2px 5px;
+    border: 3px solid black;
+    border-radius: 3px;
+    font-family: system-ui;
+    height: 100px;
+    width: 250px;
+}
+
+button {
+    display: block;
+    margin: 0px 147px;
+    height: 30px;
+    width: 50px;
+    background-color: white;
+    border: 2px solid;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(228, 102, 127);
+    color: black;
+}
+
+
+
+/*Footer section*/
+.footer {
+    width: 100%;
+    height: 90px;
+    background-color: #513252;
+    margin: auto;
+    padding: 15px;
+}
+
+.footer h5 {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 2vmin;
+    padding: 3px;
+}
+
+.footer p {
+    color: whitesmoke;
+    text-align: center;
+    padding: 4px;
+    font-size: 2vmin;
+}
